@@ -1,0 +1,1 @@
+("~/work/drunkendeluge/" "~/.emacs.d/" "~/Dropbox/OneDrive/Clojure/clojure-noob/")

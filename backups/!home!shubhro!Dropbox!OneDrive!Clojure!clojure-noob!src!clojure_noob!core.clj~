@@ -1,0 +1,59 @@
+(ns clojure-noob.core
+  (:gen-class))
+
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  (println "Hello, World!"))
+
+(if true
+  (do (println "Success!")
+      "abracadbra")
+  (do (println "Failure!")
+      "hocus pocus"))
+
+(when true
+  (do (println "Success!")
+      "abracadbra"))
+
+(defn too-enthu
+  "return an addictive cheer"
+  [name]
+  (str "OMG!" name "TXTXTX"))
+
+(defn x-chop
+  "karate"
+  ([name chop-type]
+   (str "I" chop-type "chop-name" name "take that!"))
+  ([name]
+   (str name "karate!"))
+  )
+
+(defn weird-arity
+  ([]
+     "Destiny dressed you this morning my friend, and now Fear is
+     trying to pull off your pants. If you give up, if you give in,
+     you're gonna end up naked with Fear just standing there laughing
+     at your dangling unmentionables! - the Tick")
+  ([number]
+     (inc number)))
+
+(defn codger-communication
+  [w]
+  (str "Get off my lawn " w " !!!"))
+
+(defn codger
+  [& w] 
+  (map codger-communication w))
+
+(defn my-first
+  [[first-name]]
+  first-name)
+
+(defn chooser
+  [[first second & rest]]
+  (println (str "Your first choice is" first))
+  (println (str "Your second choice is" second))
+  (println (str "We are ignoring rest of your choices. "
+                "Here they are in case you need to cry on them"
+                (clojure.string/join "," rest))))

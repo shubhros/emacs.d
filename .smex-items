@@ -1,0 +1,27 @@
+
+;; ----- smex-history -----
+(
+ byte-recompile-directory
+ run-geiser
+ customize
+ run-scheme
+ load-theme
+ cider-jack-in
+ geiser
+)
+
+;; ----- smex-data -----
+(
+ (customize . 7)
+ (cider-jack-in . 5)
+ (byte-recompile-directory . 3)
+ (package-install . 2)
+ (package-list-packages . 1)
+ (run-geiser . 7)
+ (paredit-mode . 4)
+ (geiser . 1)
+ (load-theme . 3)
+ (run-scheme . 1)
+ (kill-grep . 1)
+ (disable-paredit-mode . 2)
+)

@@ -1,0 +1,38 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/shubhro/Dropbox/OneDrive/" . "Lisp/")
+ ("/home/shubhro/Dropbox/" . "OneDrive/")
+ ("/home/shubhro/" . "Dropbox/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/shubhro/work/drunkendeluge/sicp/"
+ "/home/shubhro/Dropbox/OneDrive/Lisp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Ex3.scm"
+ "monte.scm"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/shubhro/work/drunkendeluge/sicp/" (22022 53238 262221 287000) "Ex3.scm" "../" "./")
+
+ ("/home/shubhro/Dropbox/OneDrive/Clojure/clojure-noob/src/clojure_noob/" (21893 2964 222144 106000) "core.clj" "../" "./")
+
+ ("/home/shubhro/Dropbox/OneDrive/Lisp/" (21865 52347 809536 816000) "foo.scm" "huffman" "lambda.rkt" "gcd.rkt" "functions.rkt" "templates_2.rkt" "templates.bak" "Chapter-2/" "mirror.rkt" "templates.rkt" "fast-exp.bak" "Ex-1.scm~" "mirror.bak" "mymap.scm" "Ex2-1.scm" "Ex-1.bak" "factorial_1.rkt" "huffman.scm~" "add.rkt" "test" "Ex-2.bak" "Ex2-1.bak" "fib-iter.rkt" "../" "fast-exp.rkt" "repeat.rkt" "cube_rt.scm" "huffman.scm" "./" "ackerman" "repeat.bak" "#Ex-2.scm#" "primt.rkt" "fast-multiplication.rkt" "foo" "Ex2-1.scm~" "Ex-2.scm" "denominations.rkt" "continued-fractions.rkt" "1.scm" "#Ex2-1.scm#" "pascal_triangle.rkt" "test.scm" "Ex-2.scm~" "Ex-1.scm" "file")
+
+ ("/home/shubhro/Dropbox/OneDrive/" (21892 7453 212862 365000) "shared/" "CSR_Payslips.zip" "Photos/" "1102 Expenses.xlsx" "fw_api.txt" "Documents/" "Net Worth.xlsx" "Erlang/" "Lisp/" "Shubhro Sinha.pdf" "HM WORLD CITY/" "cost breakup sheet.pdf" "config.tgz" "O-1102 Scanned/" "../" "Insurance Bonds/" "Pen Collection.xlsx" "Pictures/" "Clojure/" "./" "part-b.pdf" "usb_20_081114.zip" "Public/" "sstack.tgz" "Part-A.pdf" "zmq/" ".config/" "Music/" "My Personal Documents.zip" "C/" "Configuration Files/" "O-1102 Scanned.zip" "Reading Materials/" "Go/" "Getting Started.pdf")
+
+ ("/home/shubhro/Dropbox/" (21893 2957 80719 155000) ".dropbox" "mily bio data.docx" "OneDrive/" "../" ".dropbox.cache/" "./")
+
+ ("/home/shubhro/" (21893 4944 28605 530000) ".xsession-errors" ".xsession-errors.old" ".vimrc" ".urxvt/" ".dbus/" ".zcompdump-bluedesk-5.0.7" ".bash_logout" ".m2/" ".xinitrc" ".sudo_as_admin_successful" ".local/" ".git-credential-cache/" ".gnome2_private/" ".emacs.d/" "work/" "VMs/" ".dropbox/" "Templates/" "Documents/" ".profile" ".gnupg/" ".Xresources" ".dropbox-dist/" "airtel.html" "keys/" ".zcompdump-bluedesk-5.0.2" ".vim/" ".android/" "../" ".mozilla/" "Desktop/" ".fonts/" ".ssh/" ".viminfo" "fonts/" ".gvm/" "Pictures/" ".bashrc" ".zsh-update" ".compiz/" ".tmux.conf" ".Xmodmap" "./" ".zsh_history" ".lein/" ".Xauthority" "Dropbox/" ".zcompdump" ".gnome2/" ".zshrc" "Public/" "examples.desktop" ".nv/" ".cache/" ".adobe/" "test.go" ".dmrc" ".xinputrc" ".config/" "Music/" "Downloads/" "recovery.img" "Videos/" ".gitconfig" "test.scm" ".ICEauthority" ".bash_history" ".gconf/" ".thumbnails/" ".macromedia/" ".oh-my-zsh/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

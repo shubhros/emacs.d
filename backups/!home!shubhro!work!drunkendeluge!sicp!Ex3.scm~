@@ -1,0 +1,44 @@
+(define (make-withdraw balance)
+  (lambda (amount)
+    (if (>= balance amount)
+        (begin (set! balance (- balance amount))
+           balance)
+  "Insufficient funds")))
+
+(define (make-account balance)
+  (define (withdraw amount)
+    (if (> balance amount)
+        (begin (set! balance (- balance amount))
+               balance)
+        "Insufficient funds"))
+  (define (deposit amount)
+    (set! balance (+ balance amount))
+    balance)
+
+  (define (dispatch m)
+    (cond ((eq? m 'withdraw) withdraw)
+          ((eq? m 'deposit) deposit)
+          (else (error "Unknown request -- MAKE-ACCOUNT" m))))
+  dispatch)
+
+
+;; Accumulator
+
+(define (make-accumulator sum)
+  (define (increment-sum val)
+    (begin (set! sum (+ sum val))
+           sum))
+  increment-sum)
+
+
+(define (make-mon f num-calls)
+  (define (mf arg)
+    (cond ((eq? arg 'how-many-calls)
+           num-calls)
+          ((eq? arg 'reset-count)
+           (set! num-calls 0))
+          (else 
+           (begin (set! num-calls (+ 1 num-calls))
+                  (f arg)))))
+  mf)  
+                  
